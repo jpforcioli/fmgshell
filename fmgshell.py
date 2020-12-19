@@ -30,16 +30,21 @@ class FMGShell(cmd2.Cmd):
         "-p", "--password", required=False, help="FortiManager password"
     )
 
+    login_parser.add_argument("--port", required=False, help="FortiManager TCP port")
+
     @cmd2.with_argparser(login_parser)
     def do_login(self, args):
         """Login to FortiManager."""
         fmg_ip = args.ip
         fmg_username = args.username
         fmg_password = args.password
+        fmg_port = args.port
         if fmg_password == None:
             fmg_password = getpass.getpass()
+        if fmg_port == None:
+            fmg_port = 443
 
-        self.fmg.login(fmg_ip, fmg_username, fmg_password)
+        self.fmg.login(fmg_ip, fmg_username, fmg_password, fmg_port)
 
     # Logout from FMG
     def do_logout(self, args):
