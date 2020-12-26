@@ -10,16 +10,11 @@
 
 # TODO
 1. FMGSHELL instances should use a middleware FMG instance which is in turn
-   using the FMG JSON RPC API... (todo: we should remove FMGSHELL.api and only
-   use FMGSHELL.fmg)   
+   using the FMG JSON RPC API... (todo: we should remove ``FMGSHELL.api``
+   attribute and only use the ``FMGSHELL.fmg`` one)   
 
 2. Create a package 
 
    ```
    pip install --editable .
    ```
-3. To add a decorator in the fmgjsonrpcapi.py to create the payload, post,
-   check the response and implement the debug
-
-   Does it make sense?
-   Why not just invoking a function like post_json_rpc?

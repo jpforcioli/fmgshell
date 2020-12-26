@@ -62,7 +62,7 @@ class FMGJSONRPCAPI:
         """
         Get next available JSON RPC ID.
 
-        Return
+        Returns
         ------
         int
         """
@@ -94,18 +94,12 @@ class FMGJSONRPCAPI:
         """
         Login to FortiManager.
 
-        Arguments
-        ---------
-        ip: str
-            FortiManager IP address or FQDN
-        username: str
-            FortiManager username
-        password: str
-            FortiManager password
-        port: int
-            FortiManager port (default is 443)
-        proto: string
-            "http" or "https" (default is "https")
+        Args:
+            ip (str): FortiManager IP address or FQDN
+            username (str): FortiManager username
+            password (str): FortiManager password
+            port (int): FortiManager port (default is 443)
+            proto (string): "http" or "https" (default is "https")
         """
 
         self.base_url = f"{proto}://{ip}:{port}/jsonrpc"
@@ -147,7 +141,7 @@ class FMGJSONRPCAPI:
 
         response = self.post_json_rpc(payload)
 
-    def get(self, url):
+    def get(self, url, attributes=None):
         """
         Implement the FMG JSON RPC API "get" method
 
@@ -163,6 +157,9 @@ class FMGJSONRPCAPI:
                 },
             ],
         }
+
+        if attributes:
+            payload["params"][0].update(attributes)
 
         return self.post_json_rpc(payload)
 
