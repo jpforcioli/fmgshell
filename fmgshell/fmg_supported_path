@@ -1,0 +1,5 @@
+/pm/config/adom/*/obj/firewall/address/*
+/pm/config/adom/*/obj/firewall/addrgrp/*
+/pm/pkg/adom/*/*
+/dvmdb/adom/*
+/dvmdb/device/*

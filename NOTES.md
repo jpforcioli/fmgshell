@@ -8,6 +8,11 @@
 
    Does it make sense?
 
+# Naming conventions
+
+- FMG FS: FMG file system is made of PATH or (i.e., URL), and lead to tables or
+  table entries.
+
 # TODO
 1. FMGSHELL instances should use a middleware FMG instance which is in turn
    using the FMG JSON RPC API... (todo: we should remove ``FMGSHELL.api``

@@ -141,12 +141,16 @@ class FMGJSONRPCAPI:
 
         response = self.post_json_rpc(payload)
 
-    def get(self, url, attributes=None):
+    def get(self, url, extra_payload=None):
         """
         Implement the FMG JSON RPC API "get" method
 
         Args:
             url (str): The FMG JSON RPC API url
+            extra_payload (dict): Extra data to merge in the payload
+
+        Returns:
+            (dict): the response in JSON format.
         """
 
         payload = {
@@ -158,8 +162,8 @@ class FMGJSONRPCAPI:
             ],
         }
 
-        if attributes:
-            payload["params"][0].update(attributes)
+        if extra_payload:
+            payload["params"][0].update(extra_payload)
 
         return self.post_json_rpc(payload)
 

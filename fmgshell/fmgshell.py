@@ -7,11 +7,12 @@ import getpass
 import cmd2
 
 from fmg import FMG
+from fmgfs import *
 from fmgjsonrpcapi import FMGJSONRPCAPI
 from fmgshell_helpers import *
 
 FMGSHELL_HISTORY_FILE = ".fmgshell_history"
-FMGSHELL_ROOT_DIR = "/"
+FMGFS_ROOT_DIR = "root"
 CMD2_CATEGORY = "fmgshell commands"
 
 
@@ -23,7 +24,8 @@ class FMGShell(cmd2.Cmd):
         self.continuation_prompt = "> "
         self.logged_in = False
         self.fmg = FMG()
-        self.working_directory = FMGSHELL_ROOT_DIR
+        self.fmg_fs = FMGFS("root")
+        self.working_directory = self.fmg_fs
         super().__init__(persistent_history_file=FMGSHELL_HISTORY_FILE)
 
     # Login to FMG
@@ -110,7 +112,7 @@ class FMGShell(cmd2.Cmd):
             # "get system status"
             if args.get_system_status:
                 response = self.fmg.get_system_status(force_refresh=args.refresh)
-                self.poutput(fmg_print_get_system_status(response))
+                self.poutput(fmgshell_print_get_system_status(response))
         else:
             self.poutput("You need to login first.")
 
@@ -119,33 +121,52 @@ class FMGShell(cmd2.Cmd):
     # Print working directory
     def do_pwd(self, args):
         """Print working directory."""
-        self.poutput(self.working_directory)
+        self.poutput(self.working_directory.get_full_path())
 
     cmd2.categorize(do_pwd, CMD2_CATEGORY)
 
     # Change working directory
     def do_cd(self, args):
         """Change working directory."""
+        if self.logged_in:
+            dest_dir = str(args)
+            if len(dest_dir) == 0 or dest_dir == "/":
 
-        dest_dir = str(args)
-        if len(dest_dir) == 0:
-            self.working_directory = FMGSHELL_ROOT_DIR
+                self.working_directory = self.fmg_fs
+            else:
+                try:
+                    if dest_dir[0] == "/":
+                        node = self.fmg_fs.get_node_by_path(dest_dir)
+                    else:
+                        node = self.working_directory.get_node_by_path(dest_dir)
+                except FMGFS_WrongPath:
+                    print("Wrong path.")
+                else:
+                    self.working_directory = node
         else:
-            self.working_directory = dest_dir
+            self.poutput("You need to login first.")
 
     cmd2.categorize(do_cd, CMD2_CATEGORY)
 
     def complete_cd(self, text, line, begidx, endidx):
 
-        print(f"\nText: {text}")
-        print(f"Line: {line}")
-        print(f"Begidx: {begidx}")
-        print(f"Endidx: {endidx}\n")
-        fs = [
-            "/dvmdb/device",
-            "/dvmdb/adom",
-        ]
+        if self.logged_in:
+            pass
+        else:
+            return []
 
-        result = cmd2.utils.basic_complete(text, line, begidx, endidx, fs)
-        print(f"Result: {result}")
-        return result
+        fmg_fs = fmgshell_get_matching_paths(self, text)
+
+        results = cmd2.utils.basic_complete(text, line, begidx, endidx, fmg_fs)
+
+        if False:
+            print()
+            print(f"Result: {results}")
+            print(f"Text: {text}")
+            print(f"Type(Text)): {type(text)}")
+            print(f"Line: {line}")
+            print(f"Begidx: {begidx}")
+            print(f"Endidx: {endidx}\n")
+            print()
+
+        return results
