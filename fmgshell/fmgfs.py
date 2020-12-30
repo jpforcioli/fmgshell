@@ -84,9 +84,12 @@ class Node:
 
         return result
 
-    def get_children_by_name(self):
+    def get_children_by_name(self, text=None):
         """
         Get the list of children's names.
+
+        Args:
+            text (str, optional): return only child matching text. Defaults to None
 
         Returns:
             (list): list of children's names
