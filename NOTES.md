@@ -1,3 +1,10 @@
+# BUG
+
+1. cd /pm complete with a space... We shouldn't add the space and [tab] should
+   give config or pkg
+
+2. How to prevent cd to accept a second path?
+
 # DESIGN NOTES
 1. How to get something like
 

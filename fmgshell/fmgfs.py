@@ -30,6 +30,10 @@ class Node:
         self.parent = None
         self.children = []
 
+    def __repr__(self):
+        node_full_path = self.get_full_path()
+        return f"Node -> name: {self.name}, full path: {node_full_path}"
+
     def add_child(self, child):
         """
         Add a child node.
@@ -100,15 +104,35 @@ class Node:
 
         return names_list
 
-    def get_node_by_path(self, path):
-        path = path.lstrip("/")
+    def get_node_by_path(self, path, best_match=False):
+        """
+        Get the node referred by path.
+
+        Args:
+            path (str): a path to be searched for
+            best_match (bool, optional): if path doesn't exist, we return node
+            where it doesn't match anymore. Defaults to False.
+
+        Raises:
+            FMGFS_WrongPath: path doesn't exist
+
+        Returns:
+            Node: The node leading to path
+        """
+        # We remove leading and trailing slash
+        path = path.strip("/")
+
+        # We split the path into a list of elements
         elements = path.split("/")
 
         node = self
         for element in elements:
             idx = node.is_child_by_name(element)
             if idx == None:
-                raise FMGFS_WrongPath
+                if best_match:
+                    break
+                else:
+                    raise FMGFS_WrongPath
             node = node.children[idx]
 
         return node

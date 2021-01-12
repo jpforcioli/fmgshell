@@ -20,13 +20,29 @@ class FMGShell(cmd2.Cmd):
     """Sub-class of the cmd2.Cmd."""
 
     def __init__(self):
-        self.prompt = "fmgshell> "
-        self.continuation_prompt = "> "
-        self.logged_in = False
-        self.fmg = FMG()
-        self.fmg_fs = FMGFS("root")
-        self.working_directory = self.fmg_fs
         super().__init__(persistent_history_file=FMGSHELL_HISTORY_FILE)
+
+        # The prompt string - Inherited from cmd2.Cmd
+        self.prompt = "fmgshell> "
+
+        # Prompt string for multine command - Inherited from cmd2.Cmd
+        self.continuation_prompt = "> "
+
+        # A flag set to true once self.do_login is used
+        self.logged_in = False
+
+        # We use the FMG class for any FMG API (and caching?) operations
+        self.fmg = FMG()
+
+        # We use the FMGFS class for creating a kind of FMG file system
+        self.fmg_fs = FMGFS("root")
+
+        # The current working directory in the FMG file system
+        self.working_directory = self.fmg_fs
+
+        # Debug file
+        self.debug_file = "fmgshell.debug"
+        self.debug_fh = open(self.debug_file, "a")
 
     # Login to FMG
     login_parser = argparse.ArgumentParser()
@@ -155,18 +171,44 @@ class FMGShell(cmd2.Cmd):
         else:
             return []
 
-        fmg_fs = fmgshell_get_matching_paths(self, text)
+        # We need to work with the absolute path
+        full_path_text = None
 
-        results = cmd2.utils.basic_complete(text, line, begidx, endidx, fmg_fs)
+        try:
+            if text[0] == "/":
+                full_path_text = text
+        except IndexError:
+            pass
 
-        if False:
-            print()
-            print(f"Result: {results}")
-            print(f"Text: {text}")
-            print(f"Type(Text)): {type(text)}")
-            print(f"Line: {line}")
-            print(f"Begidx: {begidx}")
-            print(f"Endidx: {endidx}\n")
-            print()
+        if not full_path_text:
+            path_prefix = self.working_directory.get_full_path()
+
+            # if wd is "/"
+            if path_prefix == "/":
+                full_path_text = f"{path_prefix}{text}"
+            else:
+                full_path_text = f"{path_prefix}/{text}"
+
+        matches = fmgshell_get_matching_paths(self, full_path_text)
+
+        results = cmd2.utils.basic_complete(
+            full_path_text, line, begidx, endidx, matches
+        )
+
+        # Prevent to append a space when completion is done - Inherited from
+        # cmd2.Cmd
+        if len(results) == 1:
+            self.allow_appended_space = False
+
+        if True:
+            print(file=self.debug_fh, flush=True)
+            print(f"Result: {results}", file=self.debug_fh, flush=True)
+            print(f"Text: {text}", file=self.debug_fh, flush=True)
+            print(f"Full path text: {text}", file=self.debug_fh, flush=True)
+            print(f"Type(Text)): {type(text)}", file=self.debug_fh, flush=True)
+            print(f"Line: {line}", file=self.debug_fh, flush=True)
+            print(f"Begidx: {begidx}", file=self.debug_fh, flush=True)
+            print(f"Endidx: {endidx}\n", file=self.debug_fh, flush=True)
+            print(file=self.debug_fh, flush=True)
 
         return results

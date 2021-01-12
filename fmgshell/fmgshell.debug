@@ -1,0 +1,1628 @@
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "p"
+
+
+Result: []
+Text: p
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "p"
+
+
+Result: []
+Text: p
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "p"
+
+
+Result: []
+Text: p
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "p"
+
+
+Result: []
+Text: p
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "p"
+
+
+Result: []
+Text: p
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "p"
+
+
+Result: []
+Text: p
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/p"
+
+
+Result: ['/pm/']
+Text: /p
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /p
+Begidx: 3
+Endidx: 5
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: pm, full path: /pm
+fmgshell_get_matching_paths: matches: ['/pm/config/', '/pm/pkg/']
+fmgshell_get_matching_paths: display_matches: ['config', 'pkg']
+fmgshell_get_matching_paths: full_path_text: "/pm/"
+
+
+Result: ['/pm/config/', '/pm/pkg/']
+Text: /pm/
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /pm/
+Begidx: 3
+Endidx: 7
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: pm, full path: /pm
+fmgshell_get_matching_paths: matches: ['/pm/config/', '/pm/pkg/']
+fmgshell_get_matching_paths: display_matches: ['config', 'pkg']
+fmgshell_get_matching_paths: full_path_text: "/pm/"
+
+
+Result: ['/pm/config/', '/pm/pkg/']
+Text: /pm/
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /pm/
+Begidx: 3
+Endidx: 7
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: pm, full path: /pm
+fmgshell_get_matching_paths: matches: ['/pm/config/', '/pm/pkg/']
+fmgshell_get_matching_paths: display_matches: ['config', 'pkg']
+fmgshell_get_matching_paths: full_path_text: "/pm/co"
+
+
+Result: ['/pm/config/']
+Text: /pm/co
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /pm/co
+Begidx: 3
+Endidx: 9
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: config, full path: /pm/config
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/']
+fmgshell_get_matching_paths: display_matches: ['adom']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/"
+
+
+Result: ['/pm/config/adom/']
+Text: /pm/config/
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /pm/config/
+Begidx: 3
+Endidx: 14
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: adom, full path: /pm/config/adom
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/']
+fmgshell_get_matching_paths: display_matches: ['*']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/"
+
+
+Result: ['/pm/config/adom/*/']
+Text: /pm/config/adom/
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/
+Begidx: 3
+Endidx: 19
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: config, full path: /pm/config
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/']
+fmgshell_get_matching_paths: display_matches: ['adom']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/"
+
+
+Result: ['/pm/config/adom/']
+Text: /pm/config/
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /pm/config/
+Begidx: 3
+Endidx: 14
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: adom, full path: /pm/config/adom
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/']
+fmgshell_get_matching_paths: display_matches: ['*']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/"
+
+
+Result: ['/pm/config/adom/*/']
+Text: /pm/config/adom/
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/
+Begidx: 3
+Endidx: 19
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: *, full path: /pm/config/adom/*
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/obj/']
+fmgshell_get_matching_paths: display_matches: ['obj']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/*/"
+
+
+Result: ['/pm/config/adom/*/obj/']
+Text: /pm/config/adom/*/
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/*/
+Begidx: 3
+Endidx: 21
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: obj, full path: /pm/config/adom/*/obj
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/obj/firewall/']
+fmgshell_get_matching_paths: display_matches: ['firewall']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/*/obj/"
+
+
+Result: ['/pm/config/adom/*/obj/firewall/']
+Text: /pm/config/adom/*/obj/
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/*/obj/
+Begidx: 3
+Endidx: 25
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: firewall, full path: /pm/config/adom/*/obj/firewall
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/obj/firewall/address/', '/pm/config/adom/*/obj/firewall/addrgrp/']
+fmgshell_get_matching_paths: display_matches: ['address', 'addrgrp']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/*/obj/firewall/"
+
+
+Result: ['/pm/config/adom/*/obj/firewall/address/', '/pm/config/adom/*/obj/firewall/addrgrp/']
+Text: /pm/config/adom/*/obj/firewall/
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/*/obj/firewall/
+Begidx: 3
+Endidx: 34
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: firewall, full path: /pm/config/adom/*/obj/firewall
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/obj/firewall/address/', '/pm/config/adom/*/obj/firewall/addrgrp/']
+fmgshell_get_matching_paths: display_matches: ['address', 'addrgrp']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/*/obj/firewall/addr"
+
+
+Result: ['/pm/config/adom/*/obj/firewall/address/', '/pm/config/adom/*/obj/firewall/addrgrp/']
+Text: /pm/config/adom/*/obj/firewall/addr
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/*/obj/firewall/addr
+Begidx: 3
+Endidx: 38
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: firewall, full path: /pm/config/adom/*/obj/firewall
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/obj/firewall/address/', '/pm/config/adom/*/obj/firewall/addrgrp/']
+fmgshell_get_matching_paths: display_matches: ['address', 'addrgrp']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/*/obj/firewall/addr"
+
+
+Result: ['/pm/config/adom/*/obj/firewall/address/', '/pm/config/adom/*/obj/firewall/addrgrp/']
+Text: /pm/config/adom/*/obj/firewall/addr
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/*/obj/firewall/addr
+Begidx: 3
+Endidx: 38
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/p"
+
+
+Result: ['/pm/']
+Text: /p
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /p
+Begidx: 3
+Endidx: 5
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/"
+
+
+Result: ['/pm/', '/dvmdb/']
+Text: /
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/"
+
+
+Result: ['/pm/', '/dvmdb/']
+Text: /
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/d"
+
+
+Result: ['/dvmdb/']
+Text: /d
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /d
+Begidx: 3
+Endidx: 5
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: dvmdb, full path: /dvmdb
+fmgshell_get_matching_paths: matches: ['/dvmdb/adom/', '/dvmdb/device/']
+fmgshell_get_matching_paths: display_matches: ['adom', 'device']
+fmgshell_get_matching_paths: full_path_text: "/dvmdb/"
+
+
+Result: ['/dvmdb/adom/', '/dvmdb/device/']
+Text: /dvmdb/
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /dvmdb/
+Begidx: 3
+Endidx: 10
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: dvmdb, full path: /dvmdb
+fmgshell_get_matching_paths: matches: ['/dvmdb/adom/', '/dvmdb/device/']
+fmgshell_get_matching_paths: display_matches: ['adom', 'device']
+fmgshell_get_matching_paths: full_path_text: "/dvmdb/"
+
+
+Result: ['/dvmdb/adom/', '/dvmdb/device/']
+Text: /dvmdb/
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /dvmdb/
+Begidx: 3
+Endidx: 10
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: dvmdb, full path: /dvmdb
+fmgshell_get_matching_paths: matches: ['/dvmdb/adom/', '/dvmdb/device/']
+fmgshell_get_matching_paths: display_matches: ['adom', 'device']
+fmgshell_get_matching_paths: full_path_text: "/dvmdb/a"
+
+
+Result: ['/dvmdb/adom/']
+Text: /dvmdb/a
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /dvmdb/a
+Begidx: 3
+Endidx: 11
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: adom, full path: /dvmdb/adom
+fmgshell_get_matching_paths: matches: ['/dvmdb/adom/*\n/']
+fmgshell_get_matching_paths: display_matches: ['*\n']
+fmgshell_get_matching_paths: full_path_text: "/dvmdb/adom/"
+
+
+Result: ['/dvmdb/adom/*\n/']
+Text: /dvmdb/adom/
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /dvmdb/adom/
+Begidx: 3
+Endidx: 15
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/p"
+
+
+Result: ['/pm/']
+Text: /p
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /p
+Begidx: 3
+Endidx: 5
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: pm, full path: /pm
+fmgshell_get_matching_paths: matches: ['/pm/config/', '/pm/pkg/']
+fmgshell_get_matching_paths: display_matches: ['config', 'pkg']
+fmgshell_get_matching_paths: full_path_text: "/pm/co"
+
+
+Result: ['/pm/config/']
+Text: /pm/co
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /pm/co
+Begidx: 3
+Endidx: 9
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: config, full path: /pm/config
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/']
+fmgshell_get_matching_paths: display_matches: ['adom']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/"
+
+
+Result: ['/pm/config/adom/']
+Text: /pm/config/
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /pm/config/
+Begidx: 3
+Endidx: 14
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: adom, full path: /pm/config/adom
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/']
+fmgshell_get_matching_paths: display_matches: ['*']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/"
+
+
+Result: ['/pm/config/adom/*/']
+Text: /pm/config/adom/
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/
+Begidx: 3
+Endidx: 19
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: *, full path: /pm/config/adom/*
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/obj/']
+fmgshell_get_matching_paths: display_matches: ['obj']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/*/"
+
+
+Result: ['/pm/config/adom/*/obj/']
+Text: /pm/config/adom/*/
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/*/
+Begidx: 3
+Endidx: 21
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: obj, full path: /pm/config/adom/*/obj
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/obj/firewall/']
+fmgshell_get_matching_paths: display_matches: ['firewall']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/*/obj/"
+
+
+Result: ['/pm/config/adom/*/obj/firewall/']
+Text: /pm/config/adom/*/obj/
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/*/obj/
+Begidx: 3
+Endidx: 25
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: firewall, full path: /pm/config/adom/*/obj/firewall
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/obj/firewall/address/', '/pm/config/adom/*/obj/firewall/addrgrp/']
+fmgshell_get_matching_paths: display_matches: ['address', 'addrgrp']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/*/obj/firewall/"
+
+
+Result: ['/pm/config/adom/*/obj/firewall/address/', '/pm/config/adom/*/obj/firewall/addrgrp/']
+Text: /pm/config/adom/*/obj/firewall/
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/*/obj/firewall/
+Begidx: 3
+Endidx: 34
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: config, full path: /pm/config
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/']
+fmgshell_get_matching_paths: display_matches: ['adom']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/"
+
+
+Result: ['/pm/config/adom/']
+Text: /pm/config/
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /pm/config/
+Begidx: 3
+Endidx: 14
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: adom, full path: /pm/config/adom
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/']
+fmgshell_get_matching_paths: display_matches: ['*']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/"
+
+
+Result: ['/pm/config/adom/*/']
+Text: /pm/config/adom/
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/
+Begidx: 3
+Endidx: 19
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: *, full path: /pm/config/adom/*
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/obj/']
+fmgshell_get_matching_paths: display_matches: ['obj']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/*/"
+
+
+Result: ['/pm/config/adom/*/obj/']
+Text: /pm/config/adom/*/
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/*/
+Begidx: 3
+Endidx: 21
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: obj, full path: /pm/config/adom/*/obj
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/obj/firewall/']
+fmgshell_get_matching_paths: display_matches: ['firewall']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/*/obj/"
+
+
+Result: ['/pm/config/adom/*/obj/firewall/']
+Text: /pm/config/adom/*/obj/
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/*/obj/
+Begidx: 3
+Endidx: 25
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: firewall, full path: /pm/config/adom/*/obj/firewall
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/obj/firewall/address/', '/pm/config/adom/*/obj/firewall/addrgrp/']
+fmgshell_get_matching_paths: display_matches: ['address', 'addrgrp']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/*/obj/firewall/"
+
+
+Result: ['/pm/config/adom/*/obj/firewall/address/', '/pm/config/adom/*/obj/firewall/addrgrp/']
+Text: /pm/config/adom/*/obj/firewall/
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/*/obj/firewall/
+Begidx: 3
+Endidx: 34
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: firewall, full path: /pm/config/adom/*/obj/firewall
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/obj/firewall/address/', '/pm/config/adom/*/obj/firewall/addrgrp/']
+fmgshell_get_matching_paths: display_matches: ['address', 'addrgrp']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/*/obj/firewall/addr"
+
+
+Result: ['/pm/config/adom/*/obj/firewall/address/', '/pm/config/adom/*/obj/firewall/addrgrp/']
+Text: /pm/config/adom/*/obj/firewall/addr
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/*/obj/firewall/addr
+Begidx: 3
+Endidx: 38
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "p"
+
+
+Result: []
+Text: p
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "p"
+
+
+Result: []
+Text: p
+Full path text: None
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/p"
+
+
+Result: []
+Text: p
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/p"
+
+
+Result: []
+Text: p
+Full path text: p
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/p"
+
+
+Result: []
+Text: p
+Full path text: p
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/p"
+
+
+Result: []
+Text: p
+Full path text: p
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/p"
+
+
+Result: []
+Text: p
+Full path text: p
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/p"
+
+
+Result: []
+Text: p
+Full path text: p
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/p"
+
+
+Result: []
+Text: p
+Full path text: p
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/p"
+
+
+Result: []
+Text: p
+Full path text: p
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/p"
+
+
+Result: []
+Text: p
+Full path text: p
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/p"
+
+
+Result: []
+Text: p
+Full path text: p
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/p"
+
+
+Result: []
+Text: p
+Full path text: p
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/p"
+
+
+Result: []
+Text: p
+Full path text: p
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/p"
+
+
+Result: []
+Text: p
+Full path text: p
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/p"
+
+
+Result: []
+Text: p
+Full path text: p
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/p"
+
+
+Result: []
+Text: p
+Full path text: p
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/p"
+
+
+Result: []
+Text: p
+Full path text: p
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/p"
+
+
+Result: []
+Text: p
+Full path text: p
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/p"
+
+
+Result: []
+Text: p
+Full path text: p
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/p"
+
+
+Result: []
+Text: p
+Full path text: p
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/p"
+
+
+Result: []
+Text: p
+Full path text: p
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/p"
+
+
+Result: ['/pm/']
+Text: /p
+Full path text: /p
+Type(Text)): <class 'str'>
+Line: cd /p
+Begidx: 3
+Endidx: 5
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/p"
+
+
+Result: ['/pm/']
+Text: /p
+Full path text: /p
+Type(Text)): <class 'str'>
+Line: cd /p
+Begidx: 3
+Endidx: 5
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/p"
+
+
+Result: []
+Text: p
+Full path text: p
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/p"
+
+
+Result: ['/pm/']
+Text: p
+Full path text: p
+Type(Text)): <class 'str'>
+Line: cd p
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: pm, full path: /pm
+fmgshell_get_matching_paths: matches: ['/pm/config/', '/pm/pkg/']
+fmgshell_get_matching_paths: display_matches: ['config', 'pkg']
+fmgshell_get_matching_paths: full_path_text: "/pm/"
+
+
+Result: ['/pm/config/', '/pm/pkg/']
+Text: /pm/
+Full path text: /pm/
+Type(Text)): <class 'str'>
+Line: cd /pm/
+Begidx: 3
+Endidx: 7
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: pm, full path: /pm
+fmgshell_get_matching_paths: matches: ['/pm/config/', '/pm/pkg/']
+fmgshell_get_matching_paths: display_matches: ['config', 'pkg']
+fmgshell_get_matching_paths: full_path_text: "/pm/"
+
+
+Result: ['/pm/config/', '/pm/pkg/']
+Text: /pm/
+Full path text: /pm/
+Type(Text)): <class 'str'>
+Line: cd /pm/
+Begidx: 3
+Endidx: 7
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: pm, full path: /pm
+fmgshell_get_matching_paths: matches: ['/pm/config/', '/pm/pkg/']
+fmgshell_get_matching_paths: display_matches: ['config', 'pkg']
+fmgshell_get_matching_paths: full_path_text: "/pm/"
+
+
+Result: ['/pm/config/', '/pm/pkg/']
+Text: /pm/
+Full path text: /pm/
+Type(Text)): <class 'str'>
+Line: cd /pm/
+Begidx: 3
+Endidx: 7
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: pm, full path: /pm
+fmgshell_get_matching_paths: matches: ['/pm/config/', '/pm/pkg/']
+fmgshell_get_matching_paths: display_matches: ['config', 'pkg']
+fmgshell_get_matching_paths: full_path_text: "/pm/co"
+
+
+Result: ['/pm/config/']
+Text: /pm/co
+Full path text: /pm/co
+Type(Text)): <class 'str'>
+Line: cd /pm/co
+Begidx: 3
+Endidx: 9
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: config, full path: /pm/config
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/']
+fmgshell_get_matching_paths: display_matches: ['adom']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/"
+
+
+Result: ['/pm/config/adom/']
+Text: /pm/config/
+Full path text: /pm/config/
+Type(Text)): <class 'str'>
+Line: cd /pm/config/
+Begidx: 3
+Endidx: 14
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: adom, full path: /pm/config/adom
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/']
+fmgshell_get_matching_paths: display_matches: ['*']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/"
+
+
+Result: ['/pm/config/adom/*/']
+Text: /pm/config/adom/
+Full path text: /pm/config/adom/
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/
+Begidx: 3
+Endidx: 19
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: *, full path: /pm/config/adom/*
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/obj/']
+fmgshell_get_matching_paths: display_matches: ['obj']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/*/"
+
+
+Result: ['/pm/config/adom/*/obj/']
+Text: /pm/config/adom/*/
+Full path text: /pm/config/adom/*/
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/*/
+Begidx: 3
+Endidx: 21
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: obj, full path: /pm/config/adom/*/obj
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/obj/firewall/']
+fmgshell_get_matching_paths: display_matches: ['firewall']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/*/obj/"
+
+
+Result: ['/pm/config/adom/*/obj/firewall/']
+Text: /pm/config/adom/*/obj/
+Full path text: /pm/config/adom/*/obj/
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/*/obj/
+Begidx: 3
+Endidx: 25
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: firewall, full path: /pm/config/adom/*/obj/firewall
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/obj/firewall/address/', '/pm/config/adom/*/obj/firewall/addrgrp/']
+fmgshell_get_matching_paths: display_matches: ['address', 'addrgrp']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/*/obj/firewall/"
+
+
+Result: ['/pm/config/adom/*/obj/firewall/address/', '/pm/config/adom/*/obj/firewall/addrgrp/']
+Text: /pm/config/adom/*/obj/firewall/
+Full path text: /pm/config/adom/*/obj/firewall/
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/*/obj/firewall/
+Begidx: 3
+Endidx: 34
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: firewall, full path: /pm/config/adom/*/obj/firewall
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/obj/firewall/address/', '/pm/config/adom/*/obj/firewall/addrgrp/']
+fmgshell_get_matching_paths: display_matches: ['address', 'addrgrp']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/*/obj/firewall/addr"
+
+
+Result: ['/pm/config/adom/*/obj/firewall/address/', '/pm/config/adom/*/obj/firewall/addrgrp/']
+Text: /pm/config/adom/*/obj/firewall/addr
+Full path text: /pm/config/adom/*/obj/firewall/addr
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/*/obj/firewall/addr
+Begidx: 3
+Endidx: 38
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: firewall, full path: /pm/config/adom/*/obj/firewall
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/obj/firewall/address/', '/pm/config/adom/*/obj/firewall/addrgrp/']
+fmgshell_get_matching_paths: display_matches: ['address', 'addrgrp']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/*/obj/firewall/addr"
+
+
+Result: ['/pm/config/adom/*/obj/firewall/address/', '/pm/config/adom/*/obj/firewall/addrgrp/']
+Text: /pm/config/adom/*/obj/firewall/addr
+Full path text: /pm/config/adom/*/obj/firewall/addr
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/*/obj/firewall/addr
+Begidx: 3
+Endidx: 38
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/p"
+
+
+Result: ['/pm/']
+Text: /p
+Full path text: /p
+Type(Text)): <class 'str'>
+Line: cd /p
+Begidx: 3
+Endidx: 5
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/dv"
+
+
+Result: ['/dvmdb/']
+Text: /dv
+Full path text: /dv
+Type(Text)): <class 'str'>
+Line: cd /dv
+Begidx: 3
+Endidx: 6
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: dvmdb, full path: /dvmdb
+fmgshell_get_matching_paths: matches: ['/dvmdb/adom/', '/dvmdb/device/']
+fmgshell_get_matching_paths: display_matches: ['adom', 'device']
+fmgshell_get_matching_paths: full_path_text: "/dvmdb/"
+
+
+Result: ['/dvmdb/adom/', '/dvmdb/device/']
+Text: /dvmdb/
+Full path text: /dvmdb/
+Type(Text)): <class 'str'>
+Line: cd /dvmdb/
+Begidx: 3
+Endidx: 10
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: dvmdb, full path: /dvmdb
+fmgshell_get_matching_paths: matches: ['/dvmdb/adom/', '/dvmdb/device/']
+fmgshell_get_matching_paths: display_matches: ['adom', 'device']
+fmgshell_get_matching_paths: full_path_text: "/dvmdb/"
+
+
+Result: ['/dvmdb/adom/', '/dvmdb/device/']
+Text: /dvmdb/
+Full path text: /dvmdb/
+Type(Text)): <class 'str'>
+Line: cd /dvmdb/
+Begidx: 3
+Endidx: 10
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: dvmdb, full path: /dvmdb
+fmgshell_get_matching_paths: matches: ['/dvmdb/adom/', '/dvmdb/device/']
+fmgshell_get_matching_paths: display_matches: ['adom', 'device']
+fmgshell_get_matching_paths: full_path_text: "/dvmdb/"
+
+
+Result: ['/dvmdb/adom/', '/dvmdb/device/']
+Text: /dvmdb/
+Full path text: /dvmdb/
+Type(Text)): <class 'str'>
+Line: cd /dvmdb/
+Begidx: 3
+Endidx: 10
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: dvmdb, full path: /dvmdb
+fmgshell_get_matching_paths: matches: ['/dvmdb/adom/', '/dvmdb/device/']
+fmgshell_get_matching_paths: display_matches: ['adom', 'device']
+fmgshell_get_matching_paths: full_path_text: "/dvmdb/"
+
+
+Result: ['/dvmdb/adom/', '/dvmdb/device/']
+Text: /dvmdb/
+Full path text: /dvmdb/
+Type(Text)): <class 'str'>
+Line: cd /dvmdb/
+Begidx: 3
+Endidx: 10
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: dvmdb, full path: /dvmdb
+fmgshell_get_matching_paths: matches: ['/dvmdb/adom/', '/dvmdb/device/']
+fmgshell_get_matching_paths: display_matches: ['adom', 'device']
+fmgshell_get_matching_paths: full_path_text: "/dvmdb/ad"
+
+
+Result: ['/dvmdb/adom/']
+Text: /dvmdb/ad
+Full path text: /dvmdb/ad
+Type(Text)): <class 'str'>
+Line: cd /dvmdb/ad
+Begidx: 3
+Endidx: 12
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: adom, full path: /dvmdb/adom
+fmgshell_get_matching_paths: matches: ['/dvmdb/adom/*\n/']
+fmgshell_get_matching_paths: display_matches: ['*\n']
+fmgshell_get_matching_paths: full_path_text: "/dvmdb/adom/"
+
+
+Result: ['/dvmdb/adom/*\n/']
+Text: /dvmdb/adom/
+Full path text: /dvmdb/adom/
+Type(Text)): <class 'str'>
+Line: cd /dvmdb/adom/
+Begidx: 3
+Endidx: 15
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/"
+
+
+Result: ['/pm/', '/dvmdb/']
+Text: /
+Full path text: /
+Type(Text)): <class 'str'>
+Line: cd /dvmdb/adom/*
+/
+Begidx: 17
+Endidx: 18
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/"
+
+
+Result: ['/pm/', '/dvmdb/']
+Text: /
+Full path text: /
+Type(Text)): <class 'str'>
+Line: cd /dvmdb/adom/*
+/
+Begidx: 17
+Endidx: 18
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/"
+
+
+Result: ['/pm/', '/dvmdb/']
+Text: /
+Full path text: /
+Type(Text)): <class 'str'>
+Line: cd /dvmdb/adom/*
+/
+Begidx: 17
+Endidx: 18
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/"
+
+
+Result: ['/pm/', '/dvmdb/']
+Text: 
+Full path text: 
+Type(Text)): <class 'str'>
+Line: cd 
+Begidx: 3
+Endidx: 3
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: root, full path: /
+fmgshell_get_matching_paths: matches: ['/pm/', '/dvmdb/']
+fmgshell_get_matching_paths: display_matches: ['pm', 'dvmdb']
+fmgshell_get_matching_paths: full_path_text: "/"
+
+
+Result: ['/pm/', '/dvmdb/']
+Text: /
+Full path text: /
+Type(Text)): <class 'str'>
+Line: cd /
+Begidx: 3
+Endidx: 4
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: pm, full path: /pm
+fmgshell_get_matching_paths: matches: ['/pm/config/', '/pm/pkg/']
+fmgshell_get_matching_paths: display_matches: ['config', 'pkg']
+fmgshell_get_matching_paths: full_path_text: "/pm/"
+
+
+Result: ['/pm/config/', '/pm/pkg/']
+Text: 
+Full path text: 
+Type(Text)): <class 'str'>
+Line: cd 
+Begidx: 3
+Endidx: 3
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: pm, full path: /pm
+fmgshell_get_matching_paths: matches: ['/pm/config/', '/pm/pkg/']
+fmgshell_get_matching_paths: display_matches: ['config', 'pkg']
+fmgshell_get_matching_paths: full_path_text: "/pm/"
+
+
+Result: ['/pm/config/', '/pm/pkg/']
+Text: /pm/
+Full path text: /pm/
+Type(Text)): <class 'str'>
+Line: cd /pm/
+Begidx: 3
+Endidx: 7
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: pm, full path: /pm
+fmgshell_get_matching_paths: matches: ['/pm/config/', '/pm/pkg/']
+fmgshell_get_matching_paths: display_matches: ['config', 'pkg']
+fmgshell_get_matching_paths: full_path_text: "/pm/"
+
+
+Result: ['/pm/config/', '/pm/pkg/']
+Text: /pm/
+Full path text: /pm/
+Type(Text)): <class 'str'>
+Line: cd /pm/
+Begidx: 3
+Endidx: 7
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: pm, full path: /pm
+fmgshell_get_matching_paths: matches: ['/pm/config/', '/pm/pkg/']
+fmgshell_get_matching_paths: display_matches: ['config', 'pkg']
+fmgshell_get_matching_paths: full_path_text: "/pm/co"
+
+
+Result: ['/pm/config/']
+Text: /pm/co
+Full path text: /pm/co
+Type(Text)): <class 'str'>
+Line: cd /pm/co
+Begidx: 3
+Endidx: 9
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: config, full path: /pm/config
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/']
+fmgshell_get_matching_paths: display_matches: ['adom']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/"
+
+
+Result: ['/pm/config/adom/']
+Text: /pm/config/
+Full path text: /pm/config/
+Type(Text)): <class 'str'>
+Line: cd /pm/config/
+Begidx: 3
+Endidx: 14
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: adom, full path: /pm/config/adom
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/']
+fmgshell_get_matching_paths: display_matches: ['*']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/"
+
+
+Result: ['/pm/config/adom/*/']
+Text: /pm/config/adom/
+Full path text: /pm/config/adom/
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/
+Begidx: 3
+Endidx: 19
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: *, full path: /pm/config/adom/*
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/obj/', '/pm/config/adom/*/pkg/']
+fmgshell_get_matching_paths: display_matches: ['obj', 'pkg']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/*/"
+
+
+Result: ['/pm/config/adom/*/obj/', '/pm/config/adom/*/pkg/']
+Text: /pm/config/adom/*/
+Full path text: /pm/config/adom/*/
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/*/
+Begidx: 3
+Endidx: 21
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: *, full path: /pm/config/adom/*
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/obj/', '/pm/config/adom/*/pkg/']
+fmgshell_get_matching_paths: display_matches: ['obj', 'pkg']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/*/"
+
+
+Result: ['/pm/config/adom/*/obj/', '/pm/config/adom/*/pkg/']
+Text: /pm/config/adom/*/
+Full path text: /pm/config/adom/*/
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/*/
+Begidx: 3
+Endidx: 21
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: *, full path: /pm/config/adom/*
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/obj/', '/pm/config/adom/*/pkg/']
+fmgshell_get_matching_paths: display_matches: ['obj', 'pkg']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/*/p"
+
+
+Result: ['/pm/config/adom/*/pkg/']
+Text: /pm/config/adom/*/p
+Full path text: /pm/config/adom/*/p
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/*/p
+Begidx: 3
+Endidx: 22
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: pkg, full path: /pm/config/adom/*/pkg
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/pkg/firewall/']
+fmgshell_get_matching_paths: display_matches: ['firewall']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/*/pkg/"
+
+
+Result: ['/pm/config/adom/*/pkg/firewall/']
+Text: /pm/config/adom/*/pkg/
+Full path text: /pm/config/adom/*/pkg/
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/*/pkg/
+Begidx: 3
+Endidx: 25
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: firewall, full path: /pm/config/adom/*/pkg/firewall
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/pkg/firewall/policy/']
+fmgshell_get_matching_paths: display_matches: ['policy']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/*/pkg/firewall/"
+
+
+Result: ['/pm/config/adom/*/pkg/firewall/policy/']
+Text: /pm/config/adom/*/pkg/firewall/
+Full path text: /pm/config/adom/*/pkg/firewall/
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/*/pkg/firewall/
+Begidx: 3
+Endidx: 34
+
+
+
+fmgshell_get_matching_paths: node: Node -> name: policy, full path: /pm/config/adom/*/pkg/firewall/policy
+fmgshell_get_matching_paths: matches: ['/pm/config/adom/*/pkg/firewall/policy/*\n/']
+fmgshell_get_matching_paths: display_matches: ['*\n']
+fmgshell_get_matching_paths: full_path_text: "/pm/config/adom/*/pkg/firewall/policy/"
+
+
+Result: ['/pm/config/adom/*/pkg/firewall/policy/*\n/']
+Text: /pm/config/adom/*/pkg/firewall/policy/
+Full path text: /pm/config/adom/*/pkg/firewall/policy/
+Type(Text)): <class 'str'>
+Line: cd /pm/config/adom/*/pkg/firewall/policy/
+Begidx: 3
+Endidx: 41
+
+
